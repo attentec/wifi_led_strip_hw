@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name wifi_led_strip)(type Legacy)(uri /home/raek/elektronik/wifi_led_strip/wifi_led_strip.lib)(options "")(descr ""))
+)
