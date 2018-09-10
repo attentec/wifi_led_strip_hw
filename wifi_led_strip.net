@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/raek/elektronik/wifi_led_strip/wifi_led_strip.sch)
-    (date "mån 10 sep 2018 20:27:39")
+    (date "mån 10 sep 2018 21:25:40")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -78,6 +78,7 @@
       (tstamp 5B975FC3))
     (comp (ref J2)
       (value Power)
+      (footprint wifi_led_strip:USB_Micro-B_Wuerth-629105136821)
       (datasheet ~)
       (libsource (lib Connector) (part USB_B_Micro) (description "USB Micro Type B connector"))
       (sheetpath (names /) (tstamps /))
