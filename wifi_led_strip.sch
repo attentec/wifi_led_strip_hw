@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:wifi_led_strip-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -24,22 +25,6 @@ F 3 "~" H 6300 4250 50  0001 C CNN
 	1    6300 4250
 	0    -1   1    0   
 $EndComp
-Text Label 6200 4050 1    50   ~ 0
-GND
-Text Label 6300 4050 1    50   ~ 0
-GPIO2
-Text Label 6400 4050 1    50   ~ 0
-GPIO0
-Text Label 6500 4050 1    50   ~ 0
-RXD
-Text Label 6200 4550 3    50   ~ 0
-TXD
-Text Label 6300 4550 3    50   ~ 0
-CH_PD
-Text Label 6400 4550 3    50   ~ 0
-RESET
-Text Label 6500 4550 3    50   ~ 0
-VCC
 $Comp
 L Device:R R2
 U 1 1 5B9698E4
@@ -215,18 +200,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 3950 4200 3950
 Connection ~ 4800 5500
-Text Label 3850 3950 0    50   ~ 0
-GND
-Text Label 3850 3850 0    50   ~ 0
-CTSn
-Text Label 3850 3750 0    50   ~ 0
-VCC
-Text Label 3850 3650 0    50   ~ 0
-TXD
-Text Label 3850 3550 0    50   ~ 0
-RXD
-Text Label 3850 3450 0    50   ~ 0
-RTSn
 NoConn ~ 3850 3850
 NoConn ~ 3850 3450
 $Comp
@@ -368,4 +341,42 @@ Wire Wire Line
 	5600 1250 5650 1250
 Wire Wire Line
 	5600 1150 5600 1250
+Text Notes 3850 3450 0    50   ~ 0
+RTSn
+Text Notes 3850 3550 0    50   ~ 0
+RXD
+Text Notes 3850 3650 0    50   ~ 0
+TXD
+Text Notes 3850 3750 0    50   ~ 0
+VCC
+Text Notes 3850 3850 0    50   ~ 0
+CTSn
+Text Notes 3850 3950 0    50   ~ 0
+GND
+Text Notes 6200 4050 1    50   ~ 0
+GND
+Text Notes 6300 4050 1    50   ~ 0
+GPIO2
+Text Notes 6400 4050 1    50   ~ 0
+GPIO0
+Text Notes 6500 4050 1    50   ~ 0
+RXD
+Text Notes 6200 4550 3    50   ~ 0
+TXD
+Text Notes 6300 4550 3    50   ~ 0
+CH_PD
+Text Notes 6400 4550 3    50   ~ 0
+RESET
+Text Notes 6500 4550 3    50   ~ 0
+VCC
+Text Label 7050 1950 0    50   ~ 0
+GND
+Text Label 4800 3750 0    50   ~ 0
+FLASH
+Text Label 5450 5050 0    50   ~ 0
+RESET
+Text Label 5750 3650 0    50   ~ 0
+PC_TO_ESP
+Text Label 4850 4700 0    50   ~ 0
+ESP_TO_PC
 $EndSCHEMATC
