@@ -1,0 +1,22 @@
+41011019	USB micro-B kontakt SMD	
+Antal 10
+41003935	UVZ0J222MPD 2200uF 6.3V 105C Ø10x20mm	
+Antal 10
+40314002	LL4002 SMA 100V 1A	
+Antal 10
+41003856	UVZ1V330MDD 33uF 35V 105C Ø5x10mm	
+Antal 10
+40819410	Motstånd 10kohm 0.125W SMD 0805	
+Antal 20
+40819510	Motstånd 100kohm 0.125W SMD 0805	
+Antal 10
+40819247	Motstånd 470ohm 0.125W SMD 0805	
+Antal 10
+41011863	Tryckknapp SMD Mini	
+Antal 20
+40351733	TLV1117-33IDCY SOT-223 Spänningsregulator 3,3V 0.8A	
+Antal 10
+41016713	Hylslist 2.54mm 2x4p
+Antal 10
+41003799	Stiftlist 2.54mm 1x40p vinklad brytbar
+Antal 2
